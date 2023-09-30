@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus{
+    background-color: #0067CB;
+    color: white;
+    cursor: pointer;
+
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu,
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Menu-list-item{
+    display: inline-block;
+    margin: 10px 40px;
+    font-weight: bold;
+}
+
+.Menu-list-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.Menu-list-item a:hover,
+.Menu-list-item a:active,
+.Menu-list-item a:focus{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #706AE2;
+}
+.sign-in{
+    width: 6%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.sign-in:hover,
+.sign-in:active,
+.sign-in:focus{
+    color: white;
+    cursor: pointer;
+}
+
+.jumbo{
+    background-color: violet;
+    background-image: url(../css/img/hero-pe-8\ \(1\).webp);
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo-content{
+    width: 500px;
+    margin: 0 auto;
+    color: #014857;
+}
+
+.jumbo-content h1,
+.jumbo-content h2{
+    margin-bottom: 10px;
+}
+
+.jumbo-content ul{
+    margin-left: 20px;
+    list-style-type: ">";
+    margin-bottom: 20px;
+}
+
+.jumbo-content ul li{
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.download{
+    color: black;
+    border: 1px solid black;
+}
+
+.download:hover,
+.download:active,
+.download:focus{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    background-color: #f0eeee;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.main,
+.main-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.main-menu-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 50px;
+    text-decoration: none;
+}
+
+.main-menu-item a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+
+.main-menu-item a:hover,
+.main-menu-item a:active,
+.main-menu-item a:focus{
+    background-color: hsl(0, 100, 99);
+}
